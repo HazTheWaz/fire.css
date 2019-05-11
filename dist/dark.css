@@ -6,7 +6,7 @@ body {
   margin: 20px auto;
   padding: 0 10px;
   color: #dbdbdb;
-  background: #202b38;
+  background: #382020;
   text-rendering: optimizeLegibility;
 }
 
@@ -51,7 +51,7 @@ th {
 }
 
 blockquote {
-  border-left: 4px solid #0096bfab;
+  border-left: 4px solid #00bf9696;
   margin: 1.5em 0em;
   padding: 0.5em 1em;
   font-style: italic;
@@ -96,7 +96,7 @@ select {
 
 input, select, button, textarea {
   color: #ffffff;
-  background-color: #161f27;
+  background-color: #271616;
   font-family: inherit;
   font-size: inherit;
   margin-right: 6px;
@@ -127,14 +127,14 @@ button, input[type='submit'], input[type='button'] {
 button:hover,
 input[type='submit']:hover,
 input[type='button']:hover {
-  background: #324759;
+  background: #593232;
 }
 
 input:focus,
 select:focus,
 button:focus,
 textarea:focus {
-  box-shadow: 0 0 0 2px #0096bfab;
+  box-shadow: 0 0 0 2px #00bf9696;
 }
 
 input[type='checkbox']:active,
@@ -171,7 +171,7 @@ textarea:disabled {
 
 a {
   text-decoration: none;
-  color: #41adff;
+  color: #ff6741;
 }
 
 a:hover {
@@ -179,8 +179,8 @@ a:hover {
 }
 
 code, kbd {
-  background: #161f27;
-  color: #ffbe85;
+  background: #271616;
+  color: #85d6ff;
   padding: 5px;
   border-radius: 6px;
 }
@@ -217,7 +217,7 @@ th {
 }
 
 tbody tr:nth-child(even) {
-  background-color: #161f27;
+  background-color: #271616;
 }
 
 ::-webkit-scrollbar {
@@ -226,25 +226,23 @@ tbody tr:nth-child(even) {
 }
 
 ::-webkit-scrollbar-track {
-  background: #161f27;
+  background: #271616;
   border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #324759;
+  background: #593232;
   border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #415c73;
+  background: #734141;
 }
 
 ::-moz-selection {
-  background-color: #161f27;
+  background-color: #271616;
 }
 
 ::selection {
-  background-color: #161f27;
+  background-color: #271616;
 }
-
-/*# sourceMappingURL=dark.css.map */
